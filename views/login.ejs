@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lan="en" and dir="Itr">
+<head>
+    <meta charset="utf-8">
+    <title> Interactive Login Form</title>
+    <link rel="stylesheet" href="style.css"> -->
+
+
+    <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Custom Website</title>
+	<link rel="stylesheet" href="/main page/style.css">
+</head> -->
+<!--include Header-->
+<%-include('include/_header')%>
+<!--/include Header-->
+    <!-- <script src ="login2.js"> </script> -->
+
+    <script>
+        function validate()
+        {
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(username=="admin"&& password=="user")
+        {
+            alert("login successful");
+            //return URL("http://localhost:3000/index");
+            window.location="http://localhost:3000/admin_edit";
+
+        
+        }
+        else
+        {
+            alert("login failed");
+            
+        }
+
+        
+        }</script>
+
+
+
+</head>
+<body>
+<form class="box" action="" method="get">
+
+<h1>
+    login
+</h1>
+<input type="text" name="" placeholder="Enter Username" id="username">
+<input type="password" name="" placeholder="Enter Password" id="password">
+<input type="button"  style="color:white; height: 50px;width: 150px; font-size: 18px; background-color:rgb(243, 92, 84); border-radius: 8px; font-size: 24px; transition-duration: 0.4s;"
+  value="Login"  onClick="validate()"/>
+
+
+</form>
+
+
+<!-- </body>
+
+
+
+</html> -->
+
+<!--include Footer-->
+<%-include('include/_footer')%>
+<!--/include Footer-->

@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url("bg1.jpg");
+    background-size: cover;
+}
+
+.about .content .title img{
+    height: 2em;
+    width:2em;
+    border: black;
+}
+
+.about .content .title{
+    color:aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    padding:4em;
+}
+
+
+.about-details .right{
+    padding:4em;
+    color:aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+.button button{
+    background-color:red;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.button button:hover{
+    background-color: rgb(53, 49, 49);
+}

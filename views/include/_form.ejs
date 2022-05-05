@@ -1,0 +1,74 @@
+<!--Form Handling-->
+<form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <lable for="name" class="text-light">Name</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <lable for="Email" class="text-light">Email</lable>
+            <input type="text" name="email" value="" placeholder="example@gmail.com">
+        </div>
+
+        
+        
+        <div class="form-group">
+            <lable for="gender" class="radio-label">Gender</lable>
+            <div class="radio inline">
+                <input type="radio" id="radio-2" name="gender" value="Male">
+                <label for="radio-2" class="radio-label">Male</label> 
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-3" name="gender" value="Female">
+                <label for="radio-3" class="radio-label">Female</label> 
+            </div>
+        </div>
+
+        <div class="form-group">
+            <lable for="city" class="text-light">City</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="city" value="" placeholder="Enter city name">
+        </div>
+
+        <div class="form-group">
+            <lable for="gender" class="radio-label">Status</lable>
+            <div class="radio inline">
+                <input type="radio" id="radio-4" name="status" value="Active">
+                <label for="radio-4" class="radio-label">Active</label> 
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-5" name="status" value="Inactive">
+                <label for="radio-5" class="radio-label">Inactive</label> 
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="group" class="radio-label">Select your blood group</label><br>
+            <div class="radio inline">
+                <input type="radio" id="radio-6" name="group" value="A+">
+                <label for="radio-6" class="radio-label">A+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="radio-7" name="group" value="A-">
+                <label for="radio-7" class="radio-label">A-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="radio-8" name="group" value="B+">
+                <label for="radio-8" class="radio-label">B+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="radio-9" name="group" value="B-">
+                <label for="radio-9" class="radio-label">B-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="radio-10" name="group" value="O+">
+                <label for="radio-10" class="radio-label">O+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="radio-11" name="group" value="O-">
+                <label for="radio-11" class="radio-label">O-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="radio-12" name="group" value="AB+">
+                <label for="radio-12" class="radio-label">AB+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="radio-13" name="group" value="AB-">
+                <label for="radio-13" class="radio-label">AB-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
